@@ -1,11 +1,11 @@
 const dbConn = require('../../Config/db.config');
 
 var User = (user) => {
-    this.id = user.id;
-    this.UserName = user.UserName;
-    this.Email = user.Email;
-    this.Password = user.Password;
-
+    // this.id = user.id;
+    // this.UserName = user.UserName;
+    // this.Email = user.Email;
+    // this.Password = user.Password;
+console.log(user,'this is variabe model')
 
 }
 User.getAllUsers = (result) => {
